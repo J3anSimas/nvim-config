@@ -15,6 +15,7 @@ return require('packer').startup(function(use)
 	  vim.cmd('colorscheme tokyonight')
   end
   })
+   use("theprimeagen/refactoring.nvim")
   use( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use 'ThePrimeagen/harpoon'
   use 'mbbill/undotree'
