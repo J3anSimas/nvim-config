@@ -48,4 +48,8 @@ use {
 	"windwp/nvim-autopairs",
     config = function() require("nvim-autopairs").setup {} end
 }
+use {
+    "christoomey/vim-tmux-navigator",
+    lazy = false
+}
 end)
