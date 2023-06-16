@@ -21,6 +21,8 @@ return require('packer').startup(function(use)
     use 'tpope/vim-commentary'
     use("theprimeagen/refactoring.nvim")
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+    use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
+
     use 'ThePrimeagen/harpoon'
     use 'mbbill/undotree'
     use 'tpope/vim-fugitive'
